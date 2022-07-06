@@ -17,14 +17,14 @@ First, download the app from [`Releases`](https://github.com/python-mac/jupyter-
 
 The app should handle `ipynb` files, so you can set it to open them by default.
 
+Behind the scenes, the app launches the `jupyter` process and automatically stops it after the app is about to close. So, obviously, `jupyter` needs to be installed and be in `$PATH`.
+
+If you have any problems, you should probably modify shell scripts that [launch `jupyter`](Jupyter/launch-jupyter.sh) and [find root directory](Jupyter/get-root-dir.sh).
+
 It can also work with `jupyter notebook` command inside the Terminal. Just add this line in `jupyter_notebook_config.py`:
 ```
 c.NotebookApp.browser = "/Applications/Jupyter.app/Contents/MacOS/Jupyter --link=%s"
 ```
-
-Behind the scenes, the app launches the `jupyter` process and automatically stops it after the app is about to close. So, obviously, `jupyter` needs to be installed and be in `$PATH`.
-
-If you have any problems, you should probably modify shell scripts that [launch `jupyter`](Jupyter/launch-jupyter.sh) and [find root directory](Jupyter/get-root-dir.sh).
 
 ### External links
 - [Jupyter website](https://jupyter.org)
