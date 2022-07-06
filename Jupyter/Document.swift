@@ -27,8 +27,9 @@ class Document: NSDocument, ObservableObject {
                 .frame(minWidth: 900, minHeight: 600)
             
             let window = NSWindow(contentRect: NSRect(x: 0, y: 0, width: 900, height: 600),
-                                  styleMask: [.titled, .closable, .miniaturizable, .resizable, .fullSizeContentView],
+                                  styleMask: [.titled, .closable, .miniaturizable, .resizable],
                                   backing: .buffered, defer: false)
+            
             window.center()
             window.contentView = NSHostingView(rootView: contentView)
             
