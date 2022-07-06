@@ -2,7 +2,6 @@ import Cocoa
 import SwiftUI
 
 var jupyter: Jupyter?
-var launchBrowser = true
 
 @NSApplicationMain
 class AppDelegate: NSObject, NSApplicationDelegate {
@@ -26,7 +25,6 @@ class AppDelegate: NSObject, NSApplicationDelegate {
                 if let url = try? Jupyter.getURL(from: file) {
                     jupyter = Jupyter(fromURL: url)
                     
-                    launchBrowser = false
                     NSWorkspace.shared.open(URL(string: "jupyter-app:" + url.get(until: "?token="))!)
                 }
             }
@@ -107,7 +105,6 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     
     func openApp(with files: [String] = []) {
         // there is probably a better way to do it
-        
         let task = Process()
         
         task.launchPath = "/usr/bin/open"

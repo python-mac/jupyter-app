@@ -19,11 +19,8 @@ class Document: NSDocument, ObservableObject {
 
     override func makeWindowControllers() {
         
-        let path = self.fileURL?.path ?? ""
-        
-        if let jupyter = jupyter {
+        if let path = self.fileURL?.path, let jupyter = jupyter {
             
-            launchBrowser = false
             let url = jupyter.url(for: path)
 
             let contentView = WebView(url: url)
