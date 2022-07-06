@@ -1,0 +1,370 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD71D3AE2874BE290056A5CC /* get-root-dir.sh in Resources */ = {isa = PBXBuildFile; fileRef = CD71D3AD2874BE290056A5CC /* get-root-dir.sh */; };
+		CD77CF26287361E700C0C293 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD77CF25287361E700C0C293 /* AppDelegate.swift */; };
+		CD77CF2A287361E700C0C293 /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD77CF29287361E700C0C293 /* Document.swift */; };
+		CD77CF2C287361E800C0C293 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD77CF2B287361E800C0C293 /* Assets.xcassets */; };
+		CD77CF2F287361E800C0C293 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD77CF2D287361E800C0C293 /* Main.storyboard */; };
+		CDB8919428741818000F143E /* Jupyter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB8919128741818000F143E /* Jupyter.swift */; };
+		CDB8919528741818000F143E /* launch-jupyter.sh in Resources */ = {isa = PBXBuildFile; fileRef = CDB8919228741818000F143E /* launch-jupyter.sh */; };
+		CDB8919628741818000F143E /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB8919328741818000F143E /* WebView.swift */; };
+		CDB89198287452FD000F143E /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB89197287452FD000F143E /* Utilities.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CD71D3AD2874BE290056A5CC /* get-root-dir.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "get-root-dir.sh"; sourceTree = "<group>"; };
+		CD77CF22287361E700C0C293 /* Jupyter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jupyter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD77CF25287361E700C0C293 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CD77CF29287361E700C0C293 /* Document.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Document.swift; sourceTree = "<group>"; };
+		CD77CF2B287361E800C0C293 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD77CF2E287361E800C0C293 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD77CF30287361E800C0C293 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD77CF31287361E800C0C293 /* Jupyter.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Jupyter.entitlements; sourceTree = "<group>"; };
+		CDB8919128741818000F143E /* Jupyter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Jupyter.swift; sourceTree = "<group>"; };
+		CDB8919228741818000F143E /* launch-jupyter.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "launch-jupyter.sh"; sourceTree = "<group>"; };
+		CDB8919328741818000F143E /* WebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		CDB89197287452FD000F143E /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD77CF1F287361E700C0C293 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD77CF19287361E700C0C293 = {
+			isa = PBXGroup;
+			children = (
+				CD77CF24287361E700C0C293 /* Jupyter */,
+				CD77CF23287361E700C0C293 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD77CF23287361E700C0C293 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD77CF22287361E700C0C293 /* Jupyter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD77CF24287361E700C0C293 /* Jupyter */ = {
+			isa = PBXGroup;
+			children = (
+				CD77CF25287361E700C0C293 /* AppDelegate.swift */,
+				CD77CF29287361E700C0C293 /* Document.swift */,
+				CDB8919328741818000F143E /* WebView.swift */,
+				CDB8919128741818000F143E /* Jupyter.swift */,
+				CDB89197287452FD000F143E /* Utilities.swift */,
+				CD71D3AD2874BE290056A5CC /* get-root-dir.sh */,
+				CDB8919228741818000F143E /* launch-jupyter.sh */,
+				CD77CF2B287361E800C0C293 /* Assets.xcassets */,
+				CD77CF2D287361E800C0C293 /* Main.storyboard */,
+				CD77CF30287361E800C0C293 /* Info.plist */,
+				CD77CF31287361E800C0C293 /* Jupyter.entitlements */,
+			);
+			path = Jupyter;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD77CF21287361E700C0C293 /* Jupyter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD77CF34287361E800C0C293 /* Build configuration list for PBXNativeTarget "Jupyter" */;
+			buildPhases = (
+				CD77CF1E287361E700C0C293 /* Sources */,
+				CD77CF1F287361E700C0C293 /* Frameworks */,
+				CD77CF20287361E700C0C293 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Jupyter;
+			productName = Jupyter;
+			productReference = CD77CF22287361E700C0C293 /* Jupyter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD77CF1A287361E700C0C293 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					CD77CF21287361E700C0C293 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = CD77CF1D287361E700C0C293 /* Build configuration list for PBXProject "Jupyter" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD77CF19287361E700C0C293;
+			productRefGroup = CD77CF23287361E700C0C293 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD77CF21287361E700C0C293 /* Jupyter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD77CF20287361E700C0C293 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDB8919528741818000F143E /* launch-jupyter.sh in Resources */,
+				CD71D3AE2874BE290056A5CC /* get-root-dir.sh in Resources */,
+				CD77CF2C287361E800C0C293 /* Assets.xcassets in Resources */,
+				CD77CF2F287361E800C0C293 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD77CF1E287361E700C0C293 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD77CF26287361E700C0C293 /* AppDelegate.swift in Sources */,
+				CDB8919628741818000F143E /* WebView.swift in Sources */,
+				CDB8919428741818000F143E /* Jupyter.swift in Sources */,
+				CDB89198287452FD000F143E /* Utilities.swift in Sources */,
+				CD77CF2A287361E700C0C293 /* Document.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CD77CF2D287361E800C0C293 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD77CF2E287361E800C0C293 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD77CF32287361E800C0C293 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CD77CF33287361E800C0C293 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		CD77CF35287361E800C0C293 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Jupyter/Jupyter.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 56Q5LS42B4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Jupyter/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "s-valent.Jupyter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		CD77CF36287361E800C0C293 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Jupyter/Jupyter.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 56Q5LS42B4;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Jupyter/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "s-valent.Jupyter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD77CF1D287361E700C0C293 /* Build configuration list for PBXProject "Jupyter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD77CF32287361E800C0C293 /* Debug */,
+				CD77CF33287361E800C0C293 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD77CF34287361E800C0C293 /* Build configuration list for PBXNativeTarget "Jupyter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD77CF35287361E800C0C293 /* Debug */,
+				CD77CF36287361E800C0C293 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD77CF1A287361E700C0C293 /* Project object */;
+}
