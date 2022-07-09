@@ -7,7 +7,7 @@ config="$(jupyter --config-dir)/jupyter_notebook_config.py"
 if [ -f "$config" ]; then
     line=$(grep "^c.NotebookApp.notebook_dir" $config | tail -1)
 
-    # if the kine with notebook is found in the config file
+    # if the line with notebook is found in the config file
     if [ "$line" != "" ]; then
         # find start and quote type
         for (( i=26; i<${#line}; i++ )); do
